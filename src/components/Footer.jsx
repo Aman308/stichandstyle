@@ -4,7 +4,7 @@ import { assets } from '../assets/assets'
 const Footer = () => {
   return (
     <div>
-      <div className='flex flex-col sm:grid grid-cols-[3fr_1fr_1fr] gap-14 my-10 mt-40 text-sm'>
+      <div className='flex flex-col sm:grid grid-cols-[3fr_1fr_1fr] gap-14 my-10 mt-40 text-sm  '>
         <div>
             <img className='mb-5 w-40' src={assets.logo} alt="" />
             <p className='w-fill md:w-2/3 text-gray-600'>"Welcome to Stich & Style, where style meets sustainability! We’re a fresh clothing brand dedicated to creating high-quality, eco-friendly apparel that empowers individuals to express their unique style. With a focus on innovative designs and ethical production, we aim to redefine fashion for the modern world. Join us on our journey to make fashion more sustainable and stylish!"</p>
